@@ -1,0 +1,40 @@
+
+.call-to-action {
+    background: var(--blue);
+    border-radius: 3px;
+    padding: 30px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 170%;
+    color: var(--white);
+    font-family: var(--font-one);
+    margin: 5px
+}
+
+.call-to-action:focus {
+    color: red;
+}
+
+.call-to-action.one {
+    background-image: url('imgs/dog.jpg')
+}
+
+.col-xs-6 {
+    max-width: calc(50% - 20px) !important;
+}
+.col-xs-12 {
+    max-width: calc(100% - 30px) !important;
+}
+
+.call-to-action h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.hero-content {
+    background-image: url('imgs/hero.jpg');
+    background-position: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
