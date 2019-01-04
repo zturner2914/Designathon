@@ -67,3 +67,12 @@
       #hamThree  {
           top: 45px;
       }
+
+      .search-icon i {
+        position: absolute;
+        top: 19px;
+        right: 23px;
+    }
+    .fa, .fas {
+        color:var(--green);
+    }
