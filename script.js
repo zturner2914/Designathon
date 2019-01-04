@@ -1,7 +1,18 @@
 (function ($) {
 
 $(document).ready(function() {
-  console.log('Wags & Whiskers!')
+  $(".menu-btn").click(
+    function() {
+      $(".menu-btn").toggleClass("disBtn");
+      
+      $(".cross-btn").toggleClass("enCross");
+      
+      $('.menu-panel').toggleClass('showPanel');
+    }
+  );
+  
 });
+
+
 
 }(jQuery));

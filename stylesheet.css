@@ -3,7 +3,7 @@
     --blue-hover: #117BAB;
     --green: #8fc547;
     --white: #ffffff;
-    --font-one: "Helvetica", sans-serif;
+    --font-one: "Source Sans Pro", sans-serif;
   }
 
 .dog-logo img {
@@ -20,7 +20,6 @@
     height: 60px;
     /* box-shadow: 0 0 4px 0 rgba(0,0,0,0.22); */
     z-index: 1;
-    background: #ffffff;
     overflow: hidden;
     }
       
@@ -29,12 +28,13 @@
         top: 0;
         left: 20px;
         width: 30px;
-        height: 3px;
+        height: 4px;
         -webkit-transition: all .25s ease;
         -moz-transition: all .25s ease;
         -ms-transition: all .25s ease;
         -o-transition: all .25s ease;
         transition: all .25s ease;
+        fill: var(--blue);
     }
       
     #hamOne rect {
