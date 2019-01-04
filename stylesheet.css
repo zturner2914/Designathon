@@ -68,6 +68,10 @@
           top: 45px;
       }
 
+      .hamburger-icon .ham-bar rect {
+        fill:rgb(24,148,204);
+    }
+
       .search-icon i {
         position: absolute;
         top: 19px;
@@ -75,4 +79,32 @@
     }
     .fa, .fas {
         color:var(--green);
+    }
+
+    .footer {
+        background-color: #3c3a3c;
+    }
+
+    .footer-logo img {
+        width: 100px;
+    }
+
+    .footer-list ul {
+        list-style: none;
+        color:var(--white);
+    }
+
+    .footer-list ul li {
+        display: inline;
+    }
+
+    .social-icons {
+        top: 22px;
+        position: relative;
+    }
+
+
+    .fab {
+        color:var(--white);
+        padding-left: 5px;
     }
