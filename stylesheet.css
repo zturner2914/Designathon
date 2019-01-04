@@ -1,5 +1,6 @@
 :root {
     --blue: #1894cc; 
+    --blue-hover: #117BAB;
     --green: #8fc547;
     --white: #ffffff;
     --font-one: "Helvetica", sans-serif;
@@ -7,6 +8,8 @@
 
 .dog-logo img {
     width:200px;
+    display: block;
+    margin: 0 auto;
     }
     
 .hamburger-icon {
@@ -62,5 +65,5 @@
     }
       
       #hamThree  {
-          top: 54px;
+          top: 45px;
       }
