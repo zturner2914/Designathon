@@ -1,3 +1,10 @@
+:root {
+    --blue: #1894cc; 
+    --green: #8fc547;
+    --white: #ffffff;
+    --font-one: "Helvetica", sans-serif;
+  }
+
 .dog-logo img {
     width:200px;
     }
@@ -54,7 +61,23 @@
         top: 35px;
     }
       
-    #hamThree  {
-        top: 45px;
-    }
-    
+      #hamThree  {
+          top: 54px;
+      }
+
+.call-to-action {
+    background: var(--blue);
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white);
+    font-family: var(--font-one);
+}
+
+.call-to-action.one {
+    background-image: url('imgs/dog.jpg')
+}
