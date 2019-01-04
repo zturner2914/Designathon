@@ -37,5 +37,12 @@
     background-position: center;
     padding: 30px;
     margin-bottom: 30px;
-    filter: contrast(108%) brightness(69%);
+}
+
+.hero-content h1 {
+    color: var(--white);
+}
+
+.hero-content p {
+    color: var(--white);
 }
