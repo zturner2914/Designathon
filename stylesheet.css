@@ -89,6 +89,10 @@
         width: 100px;
     }
 
+    .footer-list {
+        position: relative;
+    }
+
     .footer-list ul {
         list-style: none;
         color:var(--white);
